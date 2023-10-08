@@ -49,7 +49,7 @@ body {
 }
 
 #left-div {
-	flex: 0%;
+	flex: 1.5;
 	/* 15% */
 	background-color: rgb(145, 186, 224);
 }
@@ -71,3 +71,9 @@ body {
 	font-size: 100%;
 	margin-left: 1.5%;
 }
+
+.avatar {
+	max-width: 100%;
+	height: auto;
+}
+
