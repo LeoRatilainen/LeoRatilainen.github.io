@@ -49,15 +49,14 @@ body {
 }
 
 #left-div {
-	flex: 1.5;
-	/* 15% */
+	flex: 1;
+	/* 10% */
 	background-color: rgb(145, 186, 224);
 }
 
 #right-div {
-	flex: 8.5;
-	/* 85% */
-	margin: 0;
+	flex: 9;
+	/* 90% */
 }
 
 .Table
@@ -75,5 +74,7 @@ body {
 .avatar {
 	max-width: 100%;
 	height: auto;
+	display: block;
+	margin: auto;
 }
 
